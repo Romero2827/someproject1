@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>List methods in Python</title>
+        <link rel="stylesheet" href="styles.css">
+        <style media="screen">
+          table {
+            border: 2px solid gray;
+            border-collapse: collapse;
+            width: 75%;
+          }
+          th, td {
+            border: 1px solid gray;
+            padding: 5px;
+            text-align: center;
+          }
+          th, td {
+            background-color: #3C3F41;
+          }
+        </style>
+    </head>
+    <body>
+        <h1>List methods in Python 3</h1>
+        <table>
+            <tr>
+              <th>Function</th>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td>list.append(x)</td>
+              <td>Add an item to the end of the list. Equivalent to a[len(a):] = [x].</td>
+            </tr>
+            <tr>
+              <td>list.extend(iterable)</td>
+              <td>Extend the list by appending all the items from the iterable. Equivalent to a[len(a):] = iterable.</td>
+            </tr>
+            <tr>
+              <td>list.insert(i, x)</td>
+              <td>Insert an item at a given position. The first argument is the index of the element before which to insert, so a.insert(0, x) inserts at the front of the list, and a.insert(len(a), x) is equivalent to a.append(x).</td>
+            </tr>
+            <tr>
+              <td>list.remove(x)</td>
+              <td>Remove the first item from the list whose value is equal to x. It raises a ValueError if there is no such item.</td>
+            </tr>
+            <tr>
+              <td>list.pop([i])</td>
+              <td>Remove the item at the given position in the list, and return it. If no index is specified, a.pop() removes and returns the last item in the list. (The square brackets around the i in the method signature denote that the parameter is optional, not that you should type square brackets at that position. You will see this notation frequently in the Python Library Reference.)</td>
+            </tr>
+            <tr>
+              <td>list.clear()</td>
+              <td>Remove all items from the list. Equivalent to del a[:].</td>
+            </tr>
+            <tr>
+              <td>list.index(x[, start[, end]])</td>
+              <td>Return zero-based index in the list of the first item whose value is equal to x. Raises a ValueError if there is no such item.</td>
+            </tr>
+            <tr>
+              <td>list.count(x)</td>
+              <td>Return the number of times x appears in the list.</td>
+            </tr>
+            <tr>
+              <td>list.sort(key=None, reverse=False)</td>
+              <td>Sort the items of the list in place (the arguments can be used for sort customization, see sorted() for their explanation).</td>
+            </tr>
+            <tr>
+              <td>list.reverse()</td>
+              <td>Reverse the elements of the list in place.</td>
+            </tr>
+            <tr>
+              <td>list.copy()</td>
+              <td>Return a shallow copy of the list. Equivalent to a[:].</td>
+            </tr>
+        </table>
+    </body>
+</html>
