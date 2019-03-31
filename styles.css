@@ -4,12 +4,21 @@ body {
 h1 {
   color: #95538E;
   text-align: center;
+  font-family: Menlo, sans-serif;
 }
 
 h2 {
   color: #FFBF65;
+  font-family: Menlo, sans-serif;
 }
 
 p {
+  color: #A9B7C7;
+  font-family: Menlo, sans-serif;
+  font-size: 13px;
+}
+table {
+  font-family: Menlo, sans-serif;
+  font-size: 12px;
   color: #A9B7C7;
 }
