@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Just a tech</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
         <style>
             #__init__ {
@@ -9,6 +10,19 @@
             }
             .name {
               color: #B400B4;
+            }
+            .container {
+              display: flex;
+              flex-wrap: wrap;
+            }
+            .container >div {
+              background-color: #3C3F41;
+              font-family: Menlo, sans-serif;
+              color: #BBBBBB;
+              font-size: 11px;
+              margin: 10px;
+              padding: 10px;
+              width: 400px;
             }
         </style>
     </head>
@@ -21,5 +35,9 @@
         NumPy, HTML5, GIT and also other languages and tools as well. The purpose of this page is to present my knowledge and technologies that I've learned.
       </p>
       <a href="about-me.html">About me</a>
+      <div class="container">
+        <div>A. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</div>
+        <div>B. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+      </div>
   </body>
 </html>
