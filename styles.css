@@ -3,6 +3,7 @@ body {
   padding: 20px;
 }
 h1 {
+  display: inline-flex;
   color: #95538E;
   text-align: left;
   font-family: Menlo, sans-serif;
@@ -31,13 +32,13 @@ ul, li {
   margin: 20px;
 }
 ul#horizontal-list {
-  min-width: 696px;
+  min-width: 50%;
   list-style: none;
   padding-top: 20px;
   text-align: center;
 }
 ul#horizontal-list li {
-  display: inline
+  display: inline-flex;
 }
 .footer {
   color: #95a3b3;
