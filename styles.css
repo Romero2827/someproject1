@@ -39,3 +39,9 @@ ul#horizontal-list {
 ul#horizontal-list li {
   display: inline
 }
+.footer {
+  color: #95a3b3;
+  font-family: Menlo, sans-serif;
+  font-size: 9px;
+  text-align: center;
+}
