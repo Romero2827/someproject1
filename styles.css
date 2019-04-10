@@ -4,9 +4,11 @@ body {
 }
 h1 {
   display: inline-flex;
-  color: #95538E;
+  color: #A9B7C7;
   text-align: left;
-  font-family: Menlo, sans-serif;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 36px;
 }
 
 h2 {
@@ -26,7 +28,7 @@ table {
   color: #A9B7C7;
 }
 ul, li {
-  color: #A9B7C7;
+  color: #95538E;
   font-family: Menlo, sans-serif;
   font-size: 13px;
   margin: 20px;
